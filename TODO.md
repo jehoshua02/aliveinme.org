@@ -8,7 +8,8 @@
 + [ ] Start css styleguide
 + [ ] Ask for AI or SVG logo
 + [ ] Site Header
-+ [ ] Home Page (see http://www.garrettspath.org or http://www.wish.org)
++ [ ] Home Page Content (see http://www.garrettspath.org or http://www.wish.org)
++ [ ] [Background image](https://css-tricks.com/perfect-full-page-background-image/)
 + [ ] Fonts
 + [ ] Colors
 + [ ] Publish to Github Pages for review
