@@ -1,0 +1,13 @@
+{
+  "name": "aliveinme.org",
+  "version": "0.0.0",
+  "description": "Website for Alive In Me organization.",
+  "private": true,
+  "homepage": "https://github.com/jehoshua02/aliveinme.org",
+  "authors": [
+    "Joshua Stoutenburg <jehoshua02@gmail.com>"
+  ],
+  "devDependencies": {
+    "svgeezy": "~1.0.0"
+  }
+}
