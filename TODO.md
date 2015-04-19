@@ -5,9 +5,8 @@
 
 + [x] Save styleguide to repository
 + [x] Save images to repository
-+ [ ] Start css styleguide
-+ [ ] Ask for AI or SVG logo
-+ [ ] Site Header
++ [x] Ask for AI or SVG logo
++ [x] Site Header
 + [ ] Home Page Content (see http://www.garrettspath.org or http://www.wish.org)
 + [ ] [Background image](https://css-tricks.com/perfect-full-page-background-image/)
 + [ ] Fonts
@@ -17,6 +16,9 @@
 + [ ] Donate function
 + [ ] Deploy home page to www.aliveinme.org
 + [ ] Verify rerouting for aliveinmefoundation.org
++ [ ] Sticky header
++ [ ] Paralax
++ [ ] Research image performance and optimization
 
 
 ## Other Pages / Sections
