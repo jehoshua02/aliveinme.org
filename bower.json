@@ -7,7 +7,7 @@
   "authors": [
     "Joshua Stoutenburg <jehoshua02@gmail.com>"
   ],
-  "devDependencies": {
+  "dependencies": {
     "svgeezy": "~1.0.0"
   }
 }

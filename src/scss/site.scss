@@ -1,4 +1,4 @@
-$color: blue;
-.site-header {
-  background-color: $color;
-}
+@import 'base/reset';
+
+@import 'modules/page-wrap';
+@import 'modules/site-header';
