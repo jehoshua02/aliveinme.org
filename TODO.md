@@ -19,6 +19,7 @@
 + [ ] Sticky header
 + [ ] Paralax
 + [ ] Research image performance and optimization
++ [ ] Email subscription
 
 
 ## Other Pages / Sections
