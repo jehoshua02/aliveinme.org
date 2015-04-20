@@ -7,23 +7,42 @@ html {
 
 body {
   margin: 0;
-  min-height: 100%; }
-
-.page-wrap {
+  min-height: 100%;
   min-width: 320px;
-  max-width: 1024px; }
+  font-size: 20px;
+  line-height: 1.4;
+  font-family: Georgia,Cambria,"Times New Roman",Times,serif;
+  font-weight: thin; }
 
-.site-header {
+.page {
+  min-width: 320px;
+  margin: 0 auto; }
+
+.site-header__logo {
+  display: block;
+  width: 100%;
+  padding: 20px;
+  max-height: 220px;
+  margin: 0 auto; }
+  @media (min-width: 480px) {
+    .site-header__logo {
+      position: relative;
+      left: -4.88281%; } }
+
+#home.page .section__title {
+  text-align: center; }
+#home.page .section__content {
+  padding: 0 20px; }
+#home.page #mission.section .section__background {
+  background-image: url(img/home-mission-background.jpg);
+  background-repeat: no-repeat;
+  background-position: 40.625% 70%;
+  background-size: 600px auto;
+  height: 200px;
   width: 100%; }
-  .site-header__logo {
-    display: block;
-    height: 220px;
-    padding: 20px;
-    margin: 0 auto;
-    position: relative;
-    left: -4.88281%; }
-  .site-header__background {
-    display: block;
-    width: 100%;
-    padding-top: 60%;
-    background-repeat: no-repeat; }
+#home.page #mission.section .section__title {
+  color: #fff;
+  text-align: center;
+  line-height: 200px;
+  margin-top: -200px;
+  background: rgba(0, 0, 0, 0.2); }
