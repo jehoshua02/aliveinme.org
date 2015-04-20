@@ -1,4 +1,9 @@
+@import 'settings/colors';
+
 @import 'base/reset';
 
-@import 'modules/page-wrap';
-@import 'modules/site-header';
+@import 'modules/page';
+
+@import 'components/site-header';
+
+@import 'pages/home';

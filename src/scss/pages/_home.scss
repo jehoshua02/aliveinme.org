@@ -1,0 +1,54 @@
+#home.page {
+  font-size: 20px;
+
+  #mission.section {
+
+    .section__background {
+      background-image: url(img/home-mission-background.jpg);
+      background-repeat: no-repeat;
+      background-position: percentage(130px / 320px) 70%;
+      background-size: 600px auto;
+      height: 200px;
+      width: 100%;
+    }
+
+    .section__title {
+      color: #fff;
+      text-align: center;
+      line-height: 200px;
+      margin-top: -200px;
+      background: rgba(0,0,0,.2);
+    }
+
+    .section__content {
+      padding: 0 20px;
+    }
+  }
+
+  @media (min-width: 1024px) {
+
+    /* 1440px */
+    background-position: 100% 50%;
+    background-size: 120% auto;
+
+    /* 1024px */
+    background-position: 100% 70%;
+    background-size: 120% auto;
+
+    &#mission {
+
+      .section__title {
+        padding: 10px;
+      }
+
+      .section__content {
+        padding-top: percentage(20px / 1024px);
+        padding-bottom: percentage(20px / 1024px);
+        padding-left: 38%;
+        padding-right: percentage(50px / 1024px);
+        color: #fff;
+        background: linear-gradient(right, rgba(0,0,0,.1), rgba(0,0,0,0));
+      }
+    }
+  }
+}
